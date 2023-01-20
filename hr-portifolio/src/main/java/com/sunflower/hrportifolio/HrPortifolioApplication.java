@@ -10,6 +10,7 @@ public class HrPortifolioApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(HrPortifolioApplication.class, args);
-	}
 
+	}
+	
 }
