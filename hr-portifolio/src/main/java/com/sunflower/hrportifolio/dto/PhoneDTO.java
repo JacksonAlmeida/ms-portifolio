@@ -4,6 +4,8 @@ import java.io.Serializable;
 
 import org.springframework.hateoas.RepresentationModel;
 
+import com.sunflower.hrportifolio.entities.Phone;
+
 public class PhoneDTO extends RepresentationModel<PhoneDTO> implements Serializable {
 
 	private static final long serialVersionUID = 1L;
@@ -15,9 +17,9 @@ public class PhoneDTO extends RepresentationModel<PhoneDTO> implements Serializa
 		
 	}
 
-	public PhoneDTO(Long id, String number) {
-		this.id = id;
-		this.number = number;
+	public PhoneDTO(Phone x) {
+		id = x.getId();
+		number = x.getNumber();
 	}
 
 	public Long getId() {
