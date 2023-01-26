@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.sunflower.hrportifolio.dto.PhoneDTO;
-import com.sunflower.hrportifolio.entities.Phone;
 import com.sunflower.hrportifolio.services.PhoneServices;
 
 @RestController
